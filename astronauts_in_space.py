@@ -1,4 +1,4 @@
-# This script will return the amount of astronauts currently in space
+# This script will return the amount of astronauts currently in space.
 
 import requests
 

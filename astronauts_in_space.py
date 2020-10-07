@@ -9,10 +9,8 @@ json_data = data.json()
 amount = json_data['number']
 print(f"There are {amount} people in space right now.")
 
-for index, key in enumerate(json_data):
-    if index == 1:
-        for values in json_data[key]:
-            print(values['name'])
+for astros in json_data['people']:
+    print(astros['name'])
 
 
 
